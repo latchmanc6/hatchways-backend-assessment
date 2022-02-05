@@ -8,6 +8,6 @@ const blogController = require('../controllers/blogController');
 router.get("/ping", blogController.pingServer);
 
 // GET: Blog posts
-router.get("/posts", blogController.getPosts);
+router.get("/posts/:tags/:sortBy?/:direction?", blogController.getPosts);
 
 module.exports = router;
