@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
+    "jest": "^27.5.0",
+    "node-cache": "^5.1.2",
     "node-fetch": "^2.6.6",
     "nodemon": "^2.0.15",
-    "jest": "^27.5.0",
     "supertest": "^6.2.2"
   }
 }
